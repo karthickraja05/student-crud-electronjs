@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Simple Crud Operation</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- <script src="../jquery.js"></script> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+      <div class="container">
+            <h2>Add Student</h2>
+            <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter Student Name" name="name" value="">
+            </div>
+            <div class="form-group">
+                  <label for="age">age</label>
+                  <input type="number" class="form-control" id="age" placeholder="Enter Student age" name="age" min="1" max="100" value="">
+            </div>
+            <button type="button" class="btn btn-default" onclick="addStudent()">Add</button>
+      </div>
+      <script src="../utility/add.js"></script>
+</body>
+</html>
